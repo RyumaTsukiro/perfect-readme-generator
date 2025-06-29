@@ -1,0 +1,35 @@
+{
+  "name": "perfect-readme",
+  "version": "1.0.0",
+  "description": "An interactive CLI to generate beautiful and professional README.md files for your projects.",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "perfect-readme": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "cli",
+    "markdown",
+    "developer-tools"
+  ],
+  "author": "RyumaTsukiro (https://github.com/RyumaTsukiro)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0",
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RyumaTsukiro/perfect-readme-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/RyumaTsukiro/perfect-readme-generator/issues"
+  }
+}
